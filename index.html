@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventskalender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Adventskalender</h1>
+    <p>Öffne jeden Tag ein Türchen und entdecke eine kleine Überraschung!</p>
+    <div class="calendar">
+        <!-- 24 Türchen mit onclick-Event für jedes Türchen -->
+        <div class="door" onclick="openDoor(1)"><span class="door-number">1</span></div>
+        <div class="door" onclick="openDoor(2)"><span class="door-number">2</span></div>
+        <div class="door" onclick="openDoor(3)"><span class="door-number">3</span></div>
+        <div class="door" onclick="openDoor(4)"><span class="door-number">4</span></div>
+        <div class="door" onclick="openDoor(5)"><span class="door-number">5</span></div>
+        <div class="door" onclick="openDoor(6)"><span class="door-number">6</span></div>
+        <div class="door" onclick="openDoor(7)"><span class="door-number">7</span></div>
+        <div class="door" onclick="openDoor(8)"><span class="door-number">8</span></div>
+        <div class="door" onclick="openDoor(9)"><span class="door-number">9</span></div>
+        <div class="door" onclick="openDoor(10)"><span class="door-number">10</span></div>
+        <div class="door" onclick="openDoor(11)"><span class="door-number">11</span></div>
+        <div class="door" onclick="openDoor(12)"><span class="door-number">12</span></div>
+        <div class="door" onclick="openDoor(13)"><span class="door-number">13</span></div>
+        <div class="door" onclick="openDoor(14)"><span class="door-number">14</span></div>
+        <div class="door" onclick="openDoor(15)"><span class="door-number">15</span></div>
+        <div class="door" onclick="openDoor(16)"><span class="door-number">16</span></div>
+        <div class="door" onclick="openDoor(17)"><span class="door-number">17</span></div>
+        <div class="door" onclick="openDoor(18)"><span class="door-number">18</span></div>
+        <div class="door" onclick="openDoor(19)"><span class="door-number">19</span></div>
+        <div class="door" onclick="openDoor(20)"><span class="door-number">20</span></div>
+        <div class="door" onclick="openDoor(21)"><span class="door-number">21</span></div>
+        <div class="door" onclick="openDoor(22)"><span class="door-number">22</span></div>
+        <div class="door" onclick="openDoor(23)"><span class="door-number">23</span></div>
+        <div class="door" onclick="openDoor(24)"><span class="door-number">24</span></div>
+    </div>
+
+    <!-- Bild-Anzeige-Bereich -->
+    <div id="image-modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="door-image" src="" alt="Überraschung">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
